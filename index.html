@@ -1,48 +1,65 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="styles.css" rel="stylesheet" type="test/css" />
+        <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/b83b43be54.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <div>
-            <a href="#"> Gmail </a>
-            <a href="#"> 이미지 </a>
-            <i class="fa-solid fa-bars"></i>
+            <span class="nav1">
+            <a href="#" class="ul-remove"> Google 정보 </a>
+            <a href="#" class="ul-remove"> 스토어 </a>
+            </span>
+
+            <span class="nav2">
+            <a href="#" class="ul-remove"> Gmail </a>
+            <a href="#" class="ul-remove"> 이미지 </a>
+            <i class="fa-solid fa-bars"> </i>
+            </span>
         </div>
 
-        <div>
+        <div class="center">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-            <div> 
-                <i class="fa-solid fa-magnifying-glass"></i> 
-                <input type="text"> 
-                <i class="fa-solid fa-microphone"></i>
+            <p>
+            <div class="space">
+                <i class="fa-solid fa-magnifying-glass icon-search"></i>   
+                <input type="text" class="search shadow" placeholder="Google 검색 또는 URL 입력">       
+                <i class="fa-solid fa-keyboard icon-key"></i>   
+                <i class="fa-solid fa-microphone icon-mic"></i>
             </div>
+            </p>
             <div>
-                <button> Google 검색 </button>
-                <button> I'm Feeling Lucky </button>
+                <button class="shadow"> Google 검색 </button>
+                <button class="shadow"> I'm Feeling Lucky </button>
             </div>
-            <div>
-                Google offered in: <a href="#"> 한국어 </a> <a href="#"> Tiếng Việt </a> <a href="#"> Français </a> <a href="#"> 中文 </a>
+            <div style="margin-top: 10px;">
+                Google offered in:
+                <a href="#" class="language"> 한국어 </a> 
+                <a href="#" class="language"> Tiếng Việt </a> 
+                <a href="#" class="language"> Français </a> 
+                <a href="#" class="language"> 中文 </a> </p>
             </div> 
         </div>
         
-        <div>
+    <div class="footer">
+        <div class="first-line">
             대한민국
         </div>
 
-        <div>
+        <div class="second-line">
             <span>
-            <a href="#"> 광고 </a>
-            <a href="#"> 비즈니스 </a>
-            <a href="#"> 검색의 원리 </a>
+            <a href="#" class="language"> 광고 </a>
+            <a href="#" class="language"> 비즈니스 </a> 
+            <a href="#" class="language"> 검색의 원리 </a>
             </span>
 
-            <span>
-            <a href="#"> 개인정보처리방침</a>
-            <a href="#"> 약관 </a>
-            <a href="#"> 설정 </a>
+            <span class="second-line-2">
+            <a href="#" class="language"> 개인정보처리방침</a> 
+            <a href="#" class="language"> 약관 </a> 
+            <a href="#" class="language"> 설정 </a> 
             </span>
         </div>
+    </div>
     </body>
 </html>
