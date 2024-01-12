@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div{
+    background-color: thistle;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+}
+.submain{
+    display: flex;
+}
+
+.space{
+    margin-right: 10px;
+}

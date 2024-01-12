@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.div{
+    background-color: thistle;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+}
+
+.submain{
+    display: flex;
+    justify-content: center;
+}
+
+.subsubmain{
+    display: flex;
+    justify-content: flex-end;
+}
